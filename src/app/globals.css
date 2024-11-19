@@ -40,3 +40,166 @@ a {
     color-scheme: dark;
   }
 }
+.links{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: end;
+  height: 100px;
+  align-items: center;
+  margin-right: 70px;
+    margin-left: 70px;
+}
+.ul-parents{
+    
+    background-color: #CFA6A61C;
+}
+
+.li-li{
+  padding-inline: 15px;
+}
+
+.footer{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  background-color: #CFA6A61C;
+  height: 245px;
+  justify-content: center;
+  gap: 15px;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.container{
+  max-width: 1030px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.main{
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-sec{
+  background-color: #CFA6A61C; 
+}
+.hero-sec .text{
+  width: 521px;
+  height: 305px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+
+}
+.hero-sec .heading{
+  font-size: 48px;
+  font-weight: 900px;
+}
+.hero-sec .heading{
+  font-size: 48px;
+  font-weight: 900px;
+  line-height: 61px;
+  word-spacing: 2px;
+}
+.hero-sec .para{
+  font-size: 16px;
+  font-weight: 400px;
+  line-height:auto;
+}
+.btn{
+  background-color:#f98585;
+  height:50px ;
+  width: 205px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500px;
+  cursor: pointer;
+}
+.view-btn{
+      font-size:22px;
+      font-weight:500px;
+      color: #f98585;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+}
+.cards{
+  background-color: #f4e2e2;
+  }
+.cards .Heading{
+  display: flex;
+  justify-content: space-between;
+}
+.cards .card-heading{
+  font-size:26px ;
+  font-weight:700px ;
+}
+.cards .date{
+  font-size:18px;
+  font-weight:400px ;
+}
+.cards .paragrph{
+  font-size:16px;
+  font-weight:400px ;
+}
+.cards .card{
+  background-color: rgb(255, 255, 255);
+  height: 350px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.cards .mainn{
+  height: 502px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  
+}
+.card-card{
+  display: flex;
+  gap: 20px;
+}
+.feature .card-img{
+  display: flex;
+  gap: 25px;
+  }
+.feature .main-h h3{
+  font-size: 22px;
+  font-weight: 152px;
+}  
+
+.feature .design h2{
+  font-size: 44px;
+  font-weight: 304px;
+}  
+.feature .design p{
+  font-size: 18px;
+  font-weight:lighter;
+}
+.badge-p{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+
+
+
+}
+.badge{
+  background-color: #F98585 ;
+  border-radius: 50px;   
+  width: fit-content;
+  padding: 3px 25px;
+  color: wheat;
+}

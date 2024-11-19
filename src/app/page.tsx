@@ -3,93 +3,153 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+    <>
+      <div className="hero-sec">
+        <div className="container">
+          <div className="main">
+            <div className="text">
+              <h1 className="heading">Hi, I am John, Creative Technologist</h1>
+              <p className="para">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+              <button className="btn">Download Resume</button>
+            </div>
+            <div>
+              <div>
+                <Image
+                  src="/person-image.png"
+                  width={292}
+                  height={299}
+                  alt="Johan-image"
+                ></Image>
+              </div>
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </div>
+      <div className="cards">
+        <div className="container">
+          <div className="mainn">
+            <div className="Heading">
+              <h3>Recent Post</h3>
+              <button className="view-btn">View All</button>
+            </div>
+            <div className="card-card">
+              <div className="card">
+                <h2 className="card-heading">
+                  Making a design system from scratch
+                </h2>
+                <p className="date">12 Feb 2020 | Design Patterb</p>
+                <p className="paragrph">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+              <div className="card">
+                <h2 className="card-heading">
+                  Making a design system from scratch
+                </h2>
+                <p className="date">12 Feb 2020 | Design Patterb</p>
+                <p className="paragrph">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="feature">
+        <div className="container">
+          <div className="main-h">
+            <h3>Feature Works</h3>
+          </div>
+          <div className="card-img">
+            <Image
+              src="/image1.png"
+              width={246}
+              height={200}
+              alt="image"
+            ></Image>
+            <div className="design">
+              <h2>Designing Dashboards</h2>
+              <div className="badge-p">
+                <div className="badge">
+                  <p>2020</p>
+                </div>
+                <p>Dashboard</p>
+              </div>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="feature">
+        <div className="container">
+          <div className="main-h">
+            <h3>Feature Works</h3>
+          </div>
+          <div className="card-img">
+            <Image
+              src="/image2.png"
+              width={246}
+              height={200}
+              alt="image"
+            ></Image>
+            <div className="design">
+              <h2>Designing Dashboards</h2>
+              <div className="badge-p">
+                <div className="badge">
+                  <p>2020</p>
+                </div>
+                <p>Dashboard</p>
+              </div>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="feature">
+        <div className="container">
+          <div className="main-h">
+            <h3>Feature Works</h3>
+          </div>
+          <div className="card-img">
+            <Image
+              src="/image3.png"
+              width={246}
+              height={200}
+              alt="image"
+            ></Image>
+            <div className="design">
+              <h2>Designing Dashboards</h2>
+              <div className="badge-p">
+                <div className="badge">
+                  <p>2020</p>
+                </div>
+                <p>Dashboard</p>
+              </div>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
